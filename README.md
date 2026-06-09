@@ -4,15 +4,22 @@ Aplicacion web 100% cliente para cargar archivos CSV o XLSX y generar listados d
 
 ## Contenido del repositorio
 
-- `web_listados.html`: aplicacion principal.
+- `index.html`: aplicacion principal.
+- `404.html`: redireccion de respaldo para GitHub Pages.
 - `entrada/Datos_completos.csv`: archivo de ejemplo / base de carga.
 
 ## Uso
 
-1. Abrir `web_listados.html` en un navegador moderno.
+1. Abrir el sitio publicado en GitHub Pages o `index.html` en un navegador moderno.
 2. Cargar un archivo `.csv`, `.xlsx` o `.xls`.
 3. Elegir el formato de salida `PDF` o `XLSX`.
 4. Descargar la planilla correspondiente.
+
+## GitHub Pages
+
+La URL publicada del proyecto es `https://sdpayo.github.io/listas.esm/`.
+
+Si GitHub Pages muestra este README en vez de la aplicacion, revisa en **Settings > Pages** que la fuente de despliegue este configurada para publicar desde la rama `main` y la carpeta raiz (`/root`).
 
 ## Requisitos
 
